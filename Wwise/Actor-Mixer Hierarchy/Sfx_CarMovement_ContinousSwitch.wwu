@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{764848E2-C837-495A-A065-1C2FC1856C34}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Sfx_CarMovement_ContinousSwitch" ID="{764848E2-C837-495A-A065-1C2FC1856C34}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Sfx_CarMovement_Surface" ID="{0956E537-467F-4380-AC9D-E2E86212E7BD}" ShortID="553360598">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Mud" ID="{C08F4018-D6E1-4091-B722-3421B1283749}" WorkUnitID="{41F11FCE-2090-4459-8BE2-769888823868}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Surfaces" ID="{C9B778A9-9FC3-4D94-BE1C-48739284EDEA}" WorkUnitID="{41F11FCE-2090-4459-8BE2-769888823868}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Sfx_CarMovement_Gravel" ID="{FACABFE8-6008-49D1-99B3-DBA7CF251DAD}" ShortID="807869260">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Sfx_CarMovement_Mud" ID="{8C63F650-F78F-4CE2-BC60-A4A80590AC97}" ShortID="102144926">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Sfx_CarMovement_Pavement" ID="{5B927526-CD2E-4376-A65F-DC4D6078BA6D}" ShortID="714870837">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Sfx_CarMovement_Pavement" ID="{5B927526-CD2E-4376-A65F-DC4D6078BA6D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Sfx_CarMovement_Mud" ID="{8C63F650-F78F-4CE2-BC60-A4A80590AC97}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Sfx_CarMovement_Gravel" ID="{FACABFE8-6008-49D1-99B3-DBA7CF251DAD}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Mud" ID="{C08F4018-D6E1-4091-B722-3421B1283749}"/>
+								<ItemList>
+									<ItemRef Name="Sfx_CarMovement_Mud" ID="{8C63F650-F78F-4CE2-BC60-A4A80590AC97}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Pavement" ID="{B2086C5E-69A3-493B-9B1F-586C472C420B}"/>
+								<ItemList>
+									<ItemRef Name="Sfx_CarMovement_Pavement" ID="{5B927526-CD2E-4376-A65F-DC4D6078BA6D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Gravel" ID="{56B6759B-6F86-4528-8CCA-E6BF1502B7FA}"/>
+								<ItemList>
+									<ItemRef Name="Sfx_CarMovement_Gravel" ID="{FACABFE8-6008-49D1-99B3-DBA7CF251DAD}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
