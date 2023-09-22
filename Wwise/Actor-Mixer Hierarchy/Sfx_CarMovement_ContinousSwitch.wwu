@@ -34,6 +34,95 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CarMovement_Gravel_03" ID="{EA31F4F0-1E2E-4DA8-B2B9-15CAECE58FFD}" ShortID="292108507">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vehicles, Tire, Car, Approach On Gravel, Slow, Tire Grit SND1356 1" ID="{BDBF09FC-6E9A-40E3-AFB5-CCFE9B679F75}">
+											<Language>SFX</Language>
+											<AudioFile>Car Movement\Gravel\Vehicles, Tire, Car, Approach On Gravel, Slow, Tire Grit SND1356 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="666323688"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vehicles, Tire, Car, Approach On Gravel, Slow, Tire Grit SND1356 1" ID="{BDBF09FC-6E9A-40E3-AFB5-CCFE9B679F75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarMovement_Gravel_01" ID="{02FE79C7-D211-41BF-B2DC-5ABEA6C75AE7}" ShortID="783670741">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="65 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 6" ID="{1DFBBF2A-9FCB-4C63-8114-80D463FACABB}">
+											<Language>SFX</Language>
+											<AudioFile>Car Movement\Gravel\65 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="65873944"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="65 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 6" ID="{1DFBBF2A-9FCB-4C63-8114-80D463FACABB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarMovement_Gravel_02" ID="{1422ABEF-0292-4888-8F47-F96BA085A1CE}" ShortID="1004457275">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="65 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 6 1" ID="{4408B8F5-324F-410C-8F7D-D664C2CEFE59}">
+											<Language>SFX</Language>
+											<AudioFile>Car Movement\Gravel\65 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 6 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="704019824"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="65 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 6 1" ID="{4408B8F5-324F-410C-8F7D-D664C2CEFE59}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Sfx_CarMovement_Mud" ID="{8C63F650-F78F-4CE2-BC60-A4A80590AC97}" ShortID="102144926">
 							<PropertyList>
@@ -47,6 +136,95 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CarMovement_Mud_01" ID="{AD4A13CF-3DC2-487F-97A8-519C11B00E87}" ShortID="710610784">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="15 - Automobiles General Tire Sounds Car Close Manuevers Tire Stuck In Gravel And Mud Spins With Car's Excelleration Close Pov 3" ID="{99C0E113-841E-4F1F-A83D-995660BC301D}">
+											<Language>SFX</Language>
+											<AudioFile>Car Movement\Mud\15 - Automobiles General Tire Sounds Car Close Manuevers Tire Stuck In Gravel And Mud Spins With Car's Excelleration Close Pov 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="634808889"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="15 - Automobiles General Tire Sounds Car Close Manuevers Tire Stuck In Gravel And Mud Spins With Car's Excelleration Close Pov 3" ID="{99C0E113-841E-4F1F-A83D-995660BC301D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarMovement_Mud_02" ID="{F1B7D993-0E77-4596-91E2-524EE1891245}" ShortID="635453937">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="40 - auto, chevy blazer     ext- start, idle, accelerate slowly to slow speed in muddy gravel, from rear tires, chevrolet," ID="{E8CAFADE-840F-45AB-877F-EDCCBED03F5B}">
+											<Language>SFX</Language>
+											<AudioFile>Car Movement\Mud\40 - auto, chevy blazer     ext- start, idle, accelerate slowly to slow speed in muddy gravel, from rear tires, chevrolet,.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1018686898"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="40 - auto, chevy blazer     ext- start, idle, accelerate slowly to slow speed in muddy gravel, from rear tires, chevrolet," ID="{E8CAFADE-840F-45AB-877F-EDCCBED03F5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarMovement_Mud_03" ID="{E7A9512E-C2A9-4944-97EE-3DC0EEEEF47E}" ShortID="641590832">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="40 - auto, chevy blazer     ext- start, idle, accelerate slowly to slow speed in muddy gravel, from rear tires, chevrolet, 1" ID="{28113ED1-18DA-4B52-B932-6FB83956A755}">
+											<Language>SFX</Language>
+											<AudioFile>Car Movement\Mud\40 - auto, chevy blazer     ext- start, idle, accelerate slowly to slow speed in muddy gravel, from rear tires, chevrolet, 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="634103860"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="40 - auto, chevy blazer     ext- start, idle, accelerate slowly to slow speed in muddy gravel, from rear tires, chevrolet, 1" ID="{28113ED1-18DA-4B52-B932-6FB83956A755}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Sfx_CarMovement_Pavement" ID="{5B927526-CD2E-4376-A65F-DC4D6078BA6D}" ShortID="714870837">
 							<PropertyList>
@@ -60,6 +238,81 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CarMovement_Pavement_01" ID="{46C009D9-76D5-48C6-83F2-CDE98A2AEFBD}" ShortID="354022386">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="98 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 14" ID="{AD9181AB-F7F8-4094-A808-101E90876D33}">
+											<Language>SFX</Language>
+											<AudioFile>Car Movement\Pavement\98 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="928669278"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="98 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 14" ID="{AD9181AB-F7F8-4094-A808-101E90876D33}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarMovement_Pavement_02" ID="{C29608A4-D413-416E-A665-A9A527057029}" ShortID="390653435">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="98 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 14 1" ID="{D83A07BA-C203-4FED-9A5F-5D5BA9C737DB}">
+											<Language>SFX</Language>
+											<AudioFile>Car Movement\Pavement\98 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 14 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="569328292"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="98 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 14 1" ID="{D83A07BA-C203-4FED-9A5F-5D5BA9C737DB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarMovement_Pavement_03" ID="{5F91CD6A-DBC2-4827-9418-16C9069FF624}" ShortID="455607686">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F49CB71-5645-4DBE-B4C8-C7C345294055}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BBE1A149-1D73-446C-8884-1D8F3DED5B2B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="98 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 14 3" ID="{395F4883-BA2E-4103-B1AC-A765578E5A4F}">
+											<Language>SFX</Language>
+											<AudioFile>Car Movement\Pavement\98 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 14 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="305484085"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="98 - Vehicle Accelerates To High Speed On Pavement, Transitions To Gravel 14 3" ID="{395F4883-BA2E-4103-B1AC-A765578E5A4F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 					<GroupingInfo>
